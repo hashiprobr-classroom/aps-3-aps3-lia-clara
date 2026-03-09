@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Comunidade {
+public class Comunidade {
     private List<Usuario> membros;
 
     public Comunidade(List<Usuario> membros){

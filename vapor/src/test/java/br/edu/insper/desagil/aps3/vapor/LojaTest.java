@@ -55,5 +55,4 @@ public class LojaTest {
         assertEquals(1,loja.numeroAvaliados(dono));
         assertEquals(1,loja.numeroAvaliados(new Usuario("clarusca","clara")));
     }
-
 }
