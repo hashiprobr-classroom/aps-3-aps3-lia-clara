@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class LojaTest {
     private Loja loja;
@@ -17,7 +17,7 @@ public class LojaTest {
         jogos.add(new Jogo(0,"getmobile"));
         jogos.add(new Jogo(1,"hayday"));
         jogos.add(new Jogo(2,"war"));
-        dono = new Usuario("list","lia")
+        dono = new Usuario("list","lia");
         loja = new Loja(dono,jogos);
     }
 

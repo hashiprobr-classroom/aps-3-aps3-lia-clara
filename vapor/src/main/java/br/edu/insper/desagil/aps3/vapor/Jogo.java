@@ -30,6 +30,9 @@ public class Jogo {
 
     public double media(){
         double soma = 0;
+        if (avaliacoes.isEmpty()){
+            return 0;
+        }
         for (int avaliacao:avaliacoes.values()){
             soma += avaliacao;
         }
